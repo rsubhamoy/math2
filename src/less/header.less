@@ -1,0 +1,28 @@
+header{
+	section{
+		.make-row();
+			#logo_part{
+				.make-xs-column(12);
+				.make-sm-column(5);
+				.make-md-column(5);
+					#menu{
+						.make-row();
+						.hidden-xs;
+						#menu li{
+							.make-sm-column(4);
+							.make-md-column(4);
+							}
+					}
+						
+				}
+				
+			#add_one{
+				.hidden-xs;
+				.make-sm-column(6);
+				.make-sm-column-offset(1);
+				.make-md-column(6);
+				.make-md-column-offset(1);
+				}		
+		}
+	
+}
